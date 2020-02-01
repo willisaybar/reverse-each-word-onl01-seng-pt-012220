@@ -1,6 +1,6 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-  return sentence.reverse
+  return sentence.each.reverse
     
 end
