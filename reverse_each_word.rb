@@ -1,6 +1,6 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-  binding.pry
+  return sentence.reverse
     
 end
