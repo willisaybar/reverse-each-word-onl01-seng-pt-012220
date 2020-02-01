@@ -1,9 +1,10 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-    sentence.split << sentence
-    sentence.each do 
-      sentence.reverse
+    array = sentence.split(" ")
+    test_array = []
+    array.collect do|sentence|
+      test_array << sentence.reverse
     end
-    sentence.reverse
+    test_array.join(" ")
 end
